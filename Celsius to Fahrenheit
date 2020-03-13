@@ -1,0 +1,9 @@
+//Celsius to Fahrenheit
+#include <stdio.h>
+int main(void) {
+    double C;
+    printf("Introduce degrees celsius with decimals: "); 
+    scanf("%lf",&C);
+    printf("%.1lf", C*9.0/5.0+32.0);
+    return 0;
+}
