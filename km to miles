@@ -1,0 +1,9 @@
+//km to miles
+#include <stdio.h>
+int main(void) {
+    double km;
+    printf ("Introduce km including decimals: ");
+    scanf("%lf",&km);
+    printf("%.6lf", km*0.621371);
+    return 0;
+}
